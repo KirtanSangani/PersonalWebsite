@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirtan Sangani | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="logo-wrapper">
+          <a href="#top" class="logo">
+            <span class="logo-text">Kirtan Sangani</span>
+          </a>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- 1. Title / Hero -->
+      <section class="section hero" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="hero-intro">
+              <span id="hero-intro-typed"></span
+              ><span class="typed-cursor" aria-hidden="true"></span>
+            </p>
+            <h1><span id="hero-typed"></span></h1>
+            <div class="hero-after" id="hero-after" aria-hidden="true">
+              <div class="hero-underline"></div>
+              <p class="hero-subtitle">Computer Science and Data Science @ UNC Chapel Hill</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. About Me -->
+      <section class="section alt" id="about">
+        <div class="container split">
+          <div class="split-text">
+            <h2>About Me</h2>
+            <p class="section-lead about-body">
+              Hi, I'm Kirtan Sangani, a student at the University of North Carolina at
+              Chapel Hill, pursuing a dual degree in Data Science and Computer Science.
+            </p>
+            <p class="about-body">
+              My passion for data science grew from a simple realization: data is the most
+              underutilized tool we have for solving real-world problems. What started as
+              curiosity in a programming class evolved into a deep interest in how machine
+              learning and predictive analytics can turn raw numbers into decisions that
+              actually matter. I'm most excited about potential internship or new grad
+              opportunities in finance or banking, healthcare analytics, social impact
+              tech, and geospatial intelligence — fields where data science serves as a
+              genuine force for change rather than just a business tool.
+            </p>
+            <p class="about-body">
+              Outside of tech, I enjoy beat making and mixing music, cooking, catching
+              live sports games, and spending time with friends.
+            </p>
+            <p class="about-body">
+              Feel free to reach out to me at
+              <a href="mailto:KirtanSangani24@gmail.com">KirtanSangani24@gmail.com</a>!
+            </p>
+            <div class="icon-links" aria-label="Social links">
+              <a
+                href="https://github.com/KirtanSangani"
+                class="icon-link"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M12 .5C5.73.5.75 5.7.75 12.13c0 5.15 3.33 9.52 7.95 11.06.58.11.8-.25.8-.57v-2.2c-3.24.72-3.92-1.62-3.92-1.62-.53-1.4-1.3-1.77-1.3-1.77-1.06-.75.08-.74.08-.74 1.17.08 1.78 1.24 1.78 1.24 1.04 1.82 2.73 1.3 3.4.99.11-.77.41-1.3.74-1.6-2.59-.31-5.31-1.33-5.31-5.92 0-1.31.45-2.38 1.19-3.22-.12-.31-.52-1.56.11-3.25 0 0 .98-.32 3.2 1.23.93-.27 1.93-.4 2.93-.41 1 .01 2 .14 2.93.41 2.22-1.55 3.2-1.23 3.2-1.23.63 1.69.23 2.94.11 3.25.74.84 1.19 1.91 1.19 3.22 0 4.6-2.72 5.61-5.32 5.92.42.38.8 1.11.8 2.23v3.31c0 .32.21.69.81.57 4.62-1.54 7.94-5.91 7.94-11.06C23.25 5.7 18.27.5 12 .5Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kirtan-sangani24"
+                class="icon-link"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M4.98 3.5C3.88 3.5 3 4.38 3 5.47c0 1.08.88 1.97 1.98 1.97h.02C6.1 7.44 7 6.55 7 5.47 7 4.38 6.1 3.5 5 3.5h-.02ZM3.5 8.98H6.5V21H3.5V8.98ZM9 8.98h2.87v1.64h.04c.4-.76 1.38-1.56 2.85-1.56 3.05 0 3.62 2.04 3.62 4.69V21h-3v-6.04c0-1.44-.03-3.29-2.02-3.29-2.02 0-2.33 1.58-2.33 3.19V21H9V8.98Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://docs.google.com/document/d/1pNxwU1KfFxkVIF2GAIeidT8ed23Ifb-YYuJ7OPE5Z9U/export?format=pdf"
+                class="icon-link"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Resume"
+                title="Resume"
+                download="Kirtan_Sangani_Resume.pdf"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7l-5-5Zm1 7V3.5L18.5 9H15Zm-7 2h8v2H8v-2Zm0 4h8v2H8v-2Zm0-8h4v2H8V7Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="split-visual">
+            <div class="about-slideshow" aria-label="Photos of Kirtan">
+              <button
+                class="about-slide-arrow about-slide-arrow-left"
+                type="button"
+                aria-label="Previous photo"
+              >
+                ‹
+              </button>
+              <img
+                id="about-slideshow-image"
+                src="assets/slideshow/photo1.jpg"
+                alt="Photo of Kirtan Sangani"
+              />
+              <button
+                class="about-slide-arrow about-slide-arrow-right"
+                type="button"
+                aria-label="Next photo"
+              >
+                ›
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Education -->
+      <section class="section" id="education">
+        <div class="container">
+          <header class="section-header">
+            <h2>Education</h2>
+          </header>
+          <div class="education-list">
+            <!-- Example education card (duplicate & customize) -->
+            <article class="edu-card">
+              <div class="edu-main">
+                <h3>University of North Carolina at Chapel Hill</h3>
+                <p class="edu-degree">
+                  B.S. in Data Science &amp; Computer Science<br />
+                  Concentration: Artificial Intelligence &amp; Machine Learning
+                </p>
+                <p class="edu-meta">
+                  <span>Chapel Hill, NC</span>
+                  <span>·</span>
+                  <span>Expected Graduation: May 2028</span>
+                  <span>·</span>
+                  <span>GPA: 3.8</span>
+                </p>
+              </div>
+              <div class="edu-details">
+                <div>
+                  <h4>Selected Coursework</h4>
+                  <ul class="pill-list">
+                    <li>Algorithms and Analysis</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>System Fundamentals</li>
+                    <li>Foundations of Programming</li>
+                    <li>Discrete Math</li>
+                    <li>Multivariable Calculus I</li>
+                    <li>Linear Algebra</li>
+                    <li>Ethics of AI and Societal Decision Making</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Clubs &amp; Organizations</h4>
+                  <ul class="pill-list">
+                    <li>AI@UNC</li>
+                    <li>App Team Carolina</li>
+                    <li>Tar Heel Raas</li>
+                    <li>Carolina Housing</li>
+                    <li>Community Government</li>
+                    <li>Finance and Tech Consulting</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+            <!-- Add previous institutions here as additional .edu-card blocks -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <header class="section-header">
+            <h2>Projects</h2>
+          </header>
+
+          <div class="timeline" aria-label="Project timeline">
+            <!-- Food Desert Analytics Platform -->
+            <article class="timeline-item project-card">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Food Desert Analytics Platform · Full-Stack ML Application</h3>
+                  <span class="timeline-date">Jun 2025 – Dec 2025</span>
+                </div>
+                <p class="timeline-summary">
+                  Engineered a predictive pipeline to identify food deserts across 3,142
+                  U.S. counties using 70,000+ census records, combining ML classification
+                  with interactive geospatial mapping for stakeholder decision-making.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Trained and evaluated a RandomForest model to classify food deserts,
+                    achieving 85% test accuracy.
+                  </li>
+                  <li>
+                    Identified key drivers of food insecurity with feature importance and
+                    automated hyperparameter tuning via GridSearchCV.
+                  </li>
+                  <li>
+                    Built Folium choropleth maps to translate high-dimensional demographic
+                    data into actionable, county-level insights.
+                  </li>
+                </ul>
+                <div class="timeline-meta">
+                  <div class="chip-row">
+                    <span class="chip">Data Analytics</span>
+                    <span class="chip">Data Validation</span>
+                    <span class="chip">Data Manipulation</span>
+                    <span class="chip">Data Cleaning</span>
+                    <span class="chip">Machine Learning</span>
+                    <span class="chip">Logistic Regression</span>
+                    <span class="chip">XGBoost</span>
+                    <span class="chip">Cross Validation</span>
+                    <span class="chip">GridSearchCV</span>
+                    <span class="chip">Jupyter</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">SQL</span>
+                    <span class="chip">Pandas</span>
+                    <span class="chip">NumPy</span>
+                    <span class="chip">Visual Studio Code</span>
+                    <span class="chip">Scikit-Learn</span>
+                    <span class="chip">Seaborn</span>
+                    <span class="chip">Matplotlib</span>
+                    <span class="chip">Folium</span>
+                    <span class="chip">Streamlit</span>
+                    <span class="chip">Flask</span>
+                    <span class="chip">Full-Stack Development</span>
+                  </div>
+                  <div class="link-row compact">
+                    <a href="https://github.com/KirtanSangani/Food-Access-AI" target="_blank" rel="noreferrer">Code</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cool Durham (HackNC) -->
+            <article class="timeline-item project-card">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Cool Durham · Hackathon Project (HackNC)</h3>
+                  <span class="timeline-date">Oct 2025</span>
+                </div>
+                <p class="timeline-summary">
+                  Built a cloud-ready geospatial web application featuring interactive
+                  mapping and a conversational AI “Climate Coach” powered by the Gemini
+                  API.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Collaborated in an agile, cross-functional team to ship a scalable
+                    data visualization experience with Next.js and React.
+                  </li>
+                  <li>
+                    Developed an LLM-based Climate Coach using Gemini API with reusable
+                    components and clean abstraction boundaries.
+                  </li>
+                  <li>
+                    Implemented a full mapping pipeline with temperature heatmap overlays
+                    using external geospatial datasets.
+                  </li>
+                </ul>
+                <div class="timeline-meta">
+                  <div class="chip-row">
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">Geospatial Data</span>
+                    <span class="chip">Rasterio</span>
+                    <span class="chip">Folium</span>
+                    <span class="chip">Next.js</span>
+                    <span class="chip">React.js</span>
+                    <span class="chip">React-Leaflet</span>
+                    <span class="chip">Node.js</span>
+                    <span class="chip">API Integration</span>
+                    <span class="chip">RESTful APIs</span>
+                    <span class="chip">Open Source Data</span>
+                    <span class="chip">Data Validation</span>
+                    <span class="chip">Data Cleaning</span>
+                    <span class="chip">Gemini API</span>
+                    <span class="chip">Agentic AI Workflow</span>
+                    <span class="chip">Docker</span>
+                  </div>
+                  <div class="link-row compact">
+                    <a href="https://github.com/KirtanSangani/Cool-Durham" target="_blank" rel="noreferrer">Code</a>
+                    <a href="https://cool-durham.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- AI-Powered Resume Customization -->
+            <article class="timeline-item project-card">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>AI-Powered Resume Customization · Full-Stack Application</h3>
+                  <span class="timeline-date">Sep 2025</span>
+                </div>
+                <p class="timeline-summary">
+                  Built an end-to-end AI application that customizes resumes against job
+                  descriptions using NLP pipelines, structured parsing, and robust document
+                  ingestion/export workflows.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Improved resume alignment accuracy by 40% across user tests by
+                    integrating Flask, NLP pipelines, and RESTful APIs.
+                  </li>
+                  <li>
+                    Increased output reliability by 60% via multi-stage processing with
+                    structured JSON parsing using the Gemini API.
+                  </li>
+                  <li>
+                    Reduced formatting errors by 35% using a resilient ingestion pipeline
+                    (pdfplumber, python-docx) and automated PDF generation (ReportLab).
+                  </li>
+                </ul>
+                <div class="timeline-meta">
+                  <div class="chip-row">
+                    <span class="chip">Python</span>
+                    <span class="chip">RESTful API</span>
+                    <span class="chip">Gemini API</span>
+                    <span class="chip">API Integration</span>
+                    <span class="chip">pdfplumber</span>
+                    <span class="chip">python-docx</span>
+                    <span class="chip">JSON Parsing</span>
+                    <span class="chip">NLP Pipelines</span>
+                    <span class="chip">Flask</span>
+                    <span class="chip">Full-Stack Development</span>
+                    <span class="chip">Docker</span>
+                  </div>
+                  <div class="link-row compact">
+                    <a href="https://github.com/KirtanSangani/AI-Resume-Builder" target="_blank" rel="noreferrer">Code</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Predictive Analytics Engine -->
+            <article class="timeline-item project-card">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Predictive Analytics Engine · ML Comparison Study</h3>
+                  <span class="timeline-date">Mar 2024 – Apr 2024</span>
+                </div>
+                <p class="timeline-summary">
+                  Built and validated an end-to-end ML pipeline comparing classical
+                  algorithms on an automotive dataset, emphasizing rigorous evaluation and
+                  interpretable model selection.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Compared Decision Trees, Naive Bayes, and SVMs, achieving 98% accuracy
+                    through systematic tuning and optimization.
+                  </li>
+                  <li>
+                    Improved performance by 28% over baseline using feature engineering
+                    and data preprocessing.
+                  </li>
+                  <li>
+                    Ran cross-validation and precision-recall evaluation to support
+                    production-minded model selection.
+                  </li>
+                </ul>
+                <div class="timeline-meta">
+                  <div class="chip-row">
+                    <span class="chip">Machine Learning</span>
+                    <span class="chip">Artificial Intelligence</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">Scikit-learn</span>
+                    <span class="chip">Pandas</span>
+                    <span class="chip">NumPy</span>
+                    <span class="chip">Matplotlib</span>
+                    <span class="chip">Naive Bayes</span>
+                    <span class="chip">Support Vector Machines</span>
+                    <span class="chip">Decision Trees</span>
+                    <span class="chip">Supervised Learning</span>
+                    <span class="chip">Data Analysis</span>
+                    <span class="chip">Data Validation</span>
+                    <span class="chip">Machine Learning Process</span>
+                    <span class="chip">Cross Validation</span>
+                    <span class="chip">Data Cleaning</span>
+                    <span class="chip">Open Source Data</span>
+                    <span class="chip">Public Speaking</span>
+                    <span class="chip">Presentation Planning</span>
+                  </div>
+                  <div class="link-row compact">
+                    <a href="https://github.com/KirtanSangani/Comparing-Algorithms-Project?tab=readme-ov-file" target="_blank" rel="noreferrer">Code</a>
+                    <a href="https://docs.google.com/presentation/d/1ughmdCZlLxyhQJu84OzfYdtRL832bp8nhw0mnA6P28c/edit?usp=sharing" target="_blank" rel="noreferrer">Presentation</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Quality Classification System (KNN) -->
+            <article class="timeline-item project-card">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Quality Classification System · KNN Application</h3>
+                  <span class="timeline-date">Nov 2023 – Jan 2024</span>
+                </div>
+                <p class="timeline-summary">
+                  Implemented a K-Nearest Neighbors model for agricultural product quality
+                  assessment, improving operational efficiency through standardized quality
+                  scoring and clear stakeholder communication.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Led a 2-person team to build a KNN classifier, achieving 75% accuracy
+                    on a 4,000+ sample dataset and reducing manual inspection time by 40%.
+                  </li>
+                  <li>
+                    Engineered a normalization pipeline across 7 key quality metrics,
+                    improving processing efficiency by 50%.
+                  </li>
+                  <li>
+                    Delivered technical documentation and executive-level presentations to
+                    translate ML insights into actionable recommendations.
+                  </li>
+                </ul>
+                <div class="timeline-meta">
+                  <div class="chip-row">
+                    <span class="chip">Machine Learning</span>
+                    <span class="chip">Artificial Intelligence</span>
+                    <span class="chip">Unsupervised Learning</span>
+                    <span class="chip">K-Nearest Neighbors</span>
+                    <span class="chip">Data Cleaning</span>
+                    <span class="chip">Normalization</span>
+                    <span class="chip">Regularization</span>
+                    <span class="chip">Scikit-learn</span>
+                    <span class="chip">Pandas</span>
+                    <span class="chip">NumPy</span>
+                    <span class="chip">Matplotlib</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">Data Analysis</span>
+                    <span class="chip">Data Visualization</span>
+                    <span class="chip">Public Presentation</span>
+                    <span class="chip">ML Analysis</span>
+                  </div>
+                  <div class="link-row compact">
+                    <a href="https://github.com/KirtanSangani/KNN-Project" target="_blank" rel="noreferrer">Code</a>
+                    <a href="https://docs.google.com/presentation/d/1Q--Qzpp281H3tJIch0r0MjyjS4DudtXjsJxvFEIw94I/edit?usp=sharing" target="_blank" rel="noreferrer">Presentation</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Social Impact Data Analytics -->
+            <article class="timeline-item project-card">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Social Impact Data Analytics · Team Collaboration</h3>
+                  <span class="timeline-date">Sep 2023 – Nov 2023</span>
+                </div>
+                <p class="timeline-summary">
+                  Conducted county-level statistical analysis across North Carolina to
+                  identify relationships between multidimensional datasets using
+                  regression, correlation, and hypothesis testing.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Implemented regression models and hypothesis testing frameworks across
+                    100 NC counties to surface statistically meaningful relationships.
+                  </li>
+                  <li>
+                    Built automated scripts to clean, validate, and analyze 800+ records,
+                    reducing manual processing time by 85%.
+                  </li>
+                  <li>
+                    Authored technical documentation detailing architecture, algorithms,
+                    and data structures used in large-scale demographic analysis.
+                  </li>
+                </ul>
+                <div class="timeline-meta">
+                  <div class="chip-row">
+                    <span class="chip">Python</span>
+                    <span class="chip">Data Analysis</span>
+                    <span class="chip">Data Visualization</span>
+                    <span class="chip">Data Validation</span>
+                    <span class="chip">Data Cleaning</span>
+                    <span class="chip">Correlation</span>
+                    <span class="chip">Regression</span>
+                    <span class="chip">Hypothesis Testing</span>
+                    <span class="chip">Data Structures</span>
+                    <span class="chip">Public Presentations</span>
+                    <span class="chip">Results Analysis</span>
+                    <span class="chip">Statistical Analysis</span>
+                    <span class="chip">Automation</span>
+                    <span class="chip">Data Pipelines</span>
+                    <span class="chip">Documentation</span>
+                    <span class="chip">Research Analysis</span>
+                  </div>
+                  <div class="link-row compact">
+                    <a href="https://github.com/samson-rozansky/IB_Potter_Data_Analysis" target="_blank" rel="noreferrer">Code</a>
+                    <a href="https://github.com/samson-rozansky/IB_Potter_Data_Analysis/blob/main/I%20LOVE%20STATISTIC%20VISUALIZATIONS%20RAHHHHHH.pdf" target="_blank" rel="noreferrer">Presentation</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Experience -->
+      <section class="section alt" id="experience">
+        <div class="container">
+          <header class="section-header">
+            <h2>Experience</h2>
+          </header>
+
+          <div class="timeline" aria-label="Experience timeline">
+            <!-- Upcoming: Data Science Fellowship Intern -->
+            <article class="timeline-item experience-card future" data-tags="data-science,ml,finance">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Data Science Fellowship Intern · JPMorgan Chase</h3>
+                  <span class="timeline-date">Jun 2026 – Jul 2026</span>
+                </div>
+                <p class="timeline-summary">
+                  Incoming participant in JPMorgan Chase's Data Science Fellowship, applying
+                  machine learning and analytics to real-world financial use cases while
+                  collaborating with quantitative, engineering, and business teams.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Work on an end-to-end data science project, from problem framing and
+                    data exploration to model development, evaluation, and stakeholder-ready
+                    storytelling.
+                  </li>
+                  <li>
+                    Experiment with modern ML techniques and tooling on large-scale banking
+                    datasets, focusing on model robustness, fairness, and measurable
+                    business value.
+                  </li>
+                  <li>
+                    Partner with fellows, mentors, and cross-functional teams to present
+                    findings, iterate on feedback, and refine recommendations for
+                    decision-makers.
+                  </li>
+                </ul>
+                <div class="chip-row">
+                  <span class="chip">Data Science</span>
+                  <span class="chip">Machine Learning</span>
+                  <span class="chip">Python</span>
+                  <span class="chip">SQL</span>
+                  <span class="chip">Financial Analytics</span>
+                  <span class="chip">Model Evaluation</span>
+                  <span class="chip">Stakeholder Communication</span>
+                  <span class="chip">Collaboration</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Growth Intern -->
+            <article class="timeline-item experience-card" data-tags="communication,problem-solving,finance,stakeholders">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Growth Intern · Symbal</h3>
+                  <span class="timeline-date">Dec 2025 – Present</span>
+                </div>
+                <p class="timeline-summary">
+                  Partnering with founders and leadership to drive company growth by
+                  researching stakeholders, refining internal strategy, and building
+                  repeatable communication and contracting pipelines.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Researched enterprises and key stakeholders for future services,
+                    enabling leadership to identify and prioritize high-impact outreach
+                    opportunities.
+                  </li>
+                  <li>
+                    Helped prepare contracts and designed communication pipelines between
+                    stakeholders and company heads, improving efficiency and increasing the
+                    approval rate of new agreements.
+                  </li>
+                  <li>
+                    Documented internal strategy and execution plans while refining
+                    workflows and processes to support sustainable growth.
+                  </li>
+                </ul>
+                <div class="chip-row">
+                  <span class="chip">Communication</span>
+                  <span class="chip">Problem Solving</span>
+                  <span class="chip">Time Management</span>
+                  <span class="chip">Finance</span>
+                  <span class="chip">Stakeholder Communication</span>
+                  <span class="chip">Contract Management</span>
+                  <span class="chip">Technical Consulting</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Resident Advisor -->
+            <article class="timeline-item experience-card" data-tags="leadership,conflict,communication">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Resident Advisor · UNC Chapel Hill Housing</h3>
+                  <span class="timeline-date">Aug 2025 – Present</span>
+                </div>
+                <p class="timeline-summary">
+                  Lead residential life operations for a community of 800+ students,
+                  designing programming, mentoring residents, and maintaining a supportive,
+                  inclusive environment.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Designed and executed strategic programming to drive engagement and
+                    support student wellness, academic success, and community-building.
+                  </li>
+                  <li>
+                    Orchestrated crisis intervention and conflict resolution, coordinating
+                    professional staff, other RAs, and campus resources to ensure safety
+                    and positive outcomes.
+                  </li>
+                  <li>
+                    Used participation and engagement metrics to iterate on events and
+                    resource allocation, measurably improving community involvement.
+                  </li>
+                </ul>
+                <div class="chip-row">
+                  <span class="chip">Leadership</span>
+                  <span class="chip">Conflict Management</span>
+                  <span class="chip">Time Management</span>
+                  <span class="chip">Communication</span>
+                  <span class="chip">Event Planning</span>
+                  <span class="chip">High-Stress Environment</span>
+                  <span class="chip">Crisis Management</span>
+                  <span class="chip">Accounting</span>
+                  <span class="chip">Teamwork</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- IT Support Assistant -->
+            <article class="timeline-item experience-card" data-tags="servers,teamwork,communication">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>IT Support Assistant · UNC Athletics Department</h3>
+                  <span class="timeline-date">Aug 2024 – Jun 2025</span>
+                </div>
+                <p class="timeline-summary">
+                  Supported mission-critical IT infrastructure for live sporting events,
+                  ensuring reliable systems for officials, staff, and broadcast operations.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Maintained 100% uptime across 5+ critical servers during 15+ high-stakes
+                    sporting events through redundancy and real-time monitoring.
+                  </li>
+                  <li>
+                    Deployed and optimized an automated camera system, reducing setup time
+                    from 2 hours to ~10 minutes by leveraging virtual servers and handheld
+                    device integration.
+                  </li>
+                  <li>
+                    Tuned memory and storage for real-time video processing to eliminate
+                    bottlenecks during peak referee review usage.
+                  </li>
+                </ul>
+                <div class="chip-row">
+                  <span class="chip">High-Stress Environment</span>
+                  <span class="chip">Team Management</span>
+                  <span class="chip">Servers</span>
+                  <span class="chip">Circuit Design</span>
+                  <span class="chip">Electrical Design</span>
+                  <span class="chip">Database Management</span>
+                  <span class="chip">Memory Management</span>
+                  <span class="chip">Communication</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Computer Science Teacher -->
+            <article class="timeline-item experience-card" data-tags="teaching,python,java,leadership">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Computer Science Teacher · Kidzcode</h3>
+                  <span class="timeline-date">Jun 2022 – Aug 2024</span>
+                </div>
+                <p class="timeline-summary">
+                  Taught programming fundamentals to elementary and middle school students,
+                  building curriculum and mentoring learners from first steps to advanced
+                  coursework.
+                </p>
+                <ul class="bullet-list">
+                  <li>
+                    Built a comprehensive Java curriculum from scratch, achieving a 95%
+                    completion rate across 30+ students and multiple cohorts.
+                  </li>
+                  <li>
+                    Delivered 15+ interactive workshops (30+ contact hours) that improved
+                    programming scores by 85% based on pre/post assessments.
+                  </li>
+                  <li>
+                    Mentored students with personalized code reviews, leading to a 100%
+                    progression rate into advanced programming tracks.
+                  </li>
+                </ul>
+                <div class="chip-row">
+                  <span class="chip">Python</span>
+                  <span class="chip">Java</span>
+                  <span class="chip">Curriculum Planning</span>
+                  <span class="chip">Tutoring &amp; Mentoring</span>
+                  <span class="chip">Leadership</span>
+                  <span class="chip">Teamwork</span>
+                  <span class="chip">Time Management</span>
+                  <span class="chip">Presentation Planning</span>
+                  <span class="chip">Delegation</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="footer-left">
+            <div>
+              <div class="footer-name">Kirtan Sangani</div>
+              <div class="footer-tagline">
+                Computer Science &amp; Data Science @ UNC Chapel Hill
+              </div>
+            </div>
+          </div>
+          <div class="footer-center">
+            <p class="footer-meta">
+              © <span id="year"></span> Kirtan Sangani. All Rights Reserved.
+            </p>
+          </div>
+          <div class="footer-right" aria-label="Footer links">
+            <a
+              href="https://github.com/KirtanSangani"
+              class="icon-link footer-icon"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  fill="currentColor"
+                  d="M12 .5C5.73.5.75 5.7.75 12.13c0 5.15 3.33 9.52 7.95 11.06.58.11.8-.25.8-.57v-2.2c-3.24.72-3.92-1.62-3.92-1.62-.53-1.4-1.3-1.77-1.3-1.77-1.06-.75.08-.74.08-.74 1.17.08 1.78 1.24 1.78 1.24 1.04 1.82 2.73 1.3 3.4.99.11-.77.41-1.3.74-1.6-2.59-.31-5.31-1.33-5.31-5.92 0-1.31.45-2.38 1.19-3.22-.12-.31-.52-1.56.11-3.25 0 0 .98-.32 3.2 1.23.93-.27 1.93-.4 2.93-.41 1 .01 2 .14 2.93.41 2.22-1.55 3.2-1.23 3.2-1.23.63 1.69.23 2.94.11 3.25.74.84 1.19 1.91 1.19 3.22 0 4.6-2.72 5.61-5.32 5.92.42.38.8 1.11.8 2.23v3.31c0 .32.21.69.81.57 4.62-1.54 7.94-5.91 7.94-11.06C23.25 5.7 18.27.5 12 .5Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kirtan-sangani24"
+              class="icon-link footer-icon"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  fill="currentColor"
+                  d="M4.98 3.5C3.88 3.5 3 4.38 3 5.47c0 1.08.88 1.97 1.98 1.97h.02C6.1 7.44 7 6.55 7 5.47 7 4.38 6.1 3.5 5 3.5h-.02ZM3.5 8.98H6.5V21H3.5V8.98ZM9 8.98h2.87v1.64h.04c.4-.76 1.38-1.56 2.85-1.56 3.05 0 3.62 2.04 3.62 4.69V21h-3v-6.04c0-1.44-.03-3.29-2.02-3.29-2.02 0-2.33 1.58-2.33 3.19V21H9V8.98Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="mailto:KirtanSangani24@gmail.com"
+              class="icon-link footer-icon"
+              aria-label="Email"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  fill="currentColor"
+                  d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.01L12 11l8-4.99V6H4Zm0 3.2V18h16V9.2l-7.4 4.61a2 2 0 0 1-2.1 0L4 9.2Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.google.com/document/d/1pNxwU1KfFxkVIF2GAIeidT8ed23Ifb-YYuJ7OPE5Z9U/export?format=pdf"
+              class="icon-link footer-icon"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Resume"
+              download="Kirtan_Sangani_Resume.pdf"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  fill="currentColor"
+                  d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7l-5-5Zm1 7V3.5L18.5 9H15Zm-7 2h8v2H8v-2Zm0 4h8v2H8v-2Zm0-8h4v2H8V7Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
