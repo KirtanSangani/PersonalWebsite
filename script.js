@@ -154,10 +154,10 @@ const aboutSlideshowImg = document.getElementById("about-slideshow-image");
 if (aboutSlideshowImg) {
   const aboutSlides = [
     "assets/slideshow/photo1.jpg",
-    "assets/slideshow/photo2.jpg",
+    "assets/slideshow/photo2.JPEG",
     "assets/slideshow/photo3.jpg",
     "assets/slideshow/photo4.jpg",
-    "assets/slideshow/photo5.jpg",
+    "assets/slideshow/photo5.JPEG",
     "assets/slideshow/photo6.jpg",
   ];
 
